@@ -3,15 +3,15 @@
       Workshop Todo List
     </h1>
 
-    <div>
-      <input type="checkbox">
+    <div class="card">
+      <input type="checkbox" name="why">
       
-      <h2><%= params @todo_description%></h2>
+      <h2><%= @todo_description%></h2>
       <h3>Todo #<%= params[:id] %></h3>
     
-  <span class="pomodoro-estimate large-pomodoro-estimate"><%= 3+1 %> Pomodoros</span>
+  <span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo_pomodoros_estimate %> Pomodoros</span>
   <a href="#" class="button" id="edit-todo-button">Edit</a>
   <a href="#" class="button" id="delete-todo-button">Delete</a>
   <a href="/todo/index" class="simple-link">Go back...</a>
-<
+
     </div>

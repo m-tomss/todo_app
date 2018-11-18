@@ -30,6 +30,6 @@ class TodoController < ApplicationController
      @todo_description ="make different tabs"
      @todo_pomodoros_estimate = 4 
       
-
-        
-end
+        end
+    end
+end 
