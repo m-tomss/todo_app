@@ -11,7 +11,7 @@
     
   <span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo.pomodoro_estimate %> Pomodoros</span>
  <a href="/todo/edit/<%= @todo.id %>" class="button edit-todo-button">Edit</a>
-  <a href="#" class="button" id="delete-todo-button">Delete</a>
+  <a href="/todo/destroy/<%= @todo.id %>" class="button delete-todo-button">Delete</a>
   <a href="/todo/index" class="simple-link">Go back...</a>
 
     </div>
